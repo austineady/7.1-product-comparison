@@ -32,3 +32,40 @@ a {
   @include outer-container(100vw);
   background-color: rgba(42, 43, 48, 1);
 }
+
+.wine-item {
+  @include span-columns(2.3);
+  height: 450px;
+  background-color: rgba(36, 37, 42, 1);
+  border-radius: 5px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  color: rgba(206, 206, 206, 1);
+}
+
+.wine-price {
+  margin-top: 40px;
+  color: rgba(122, 124, 229, 1);
+}
+
+.add-cart-button {
+  @include span-columns(8);
+  @include shift(2);
+  height: 50px;
+  margin-top: 20px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgba(44, 45, 51, 1);
+  text-align: center;
+  font-size: 15px;
+}
+
+.add-compare-button {
+  position: relative;
+  float: right;
+}
+
+.wine-title {
+  font-size: 25px;
+}
