@@ -1,0 +1,13 @@
+<section class="content">
+  <ul class="wine-list">
+  {{#each this}}
+  <li class="wine-item">
+    <input type="checkbox" class="add-compare-button" data-id="id">
+    <img src="{{picture}}" class="wine-picture">
+    <h3 class="wine-title">{{title}}</h3>
+    <h4 class="wine-price">{{price}}</h4>
+    <button class="add-cart-button">Add to cart</button>
+  </li>
+  {{/each}}
+  </ul>
+</section>

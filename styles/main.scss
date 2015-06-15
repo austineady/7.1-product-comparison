@@ -19,3 +19,16 @@ body {
   background-color: $base-background-color;
   color: $base-font-color;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.content {
+  @include outer-container(100vw);
+  background-color: rgba(42, 43, 48, 1);
+}
